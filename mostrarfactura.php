@@ -59,7 +59,7 @@ $acu=0;
   <div class="envolver"> 
 	<div class="encabezado">
 		 <div class="logo">
-			 <h1><a href="index.html">Servicio y mantenimiento de lanchas</a></h1>
+			 <h1><a href="Vista/productos.html">Servicio y mantenimiento de lanchas</a></h1>
 			 <p>Version 1.0</p>
 		 </div>
 		 <div class="limpiar"></div> 
