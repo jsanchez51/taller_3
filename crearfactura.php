@@ -32,7 +32,8 @@ if($_POST){
                     if($sentenciaAgregar->execute(array($nombre,$cedula,01))){
                         $leercliente='SELECT MAX(id) FROM cliente';
                      }else{
-                        $leercliente="SELECT id FROM cliente where id= $cedula";
+                      
+			$leercliente='SELECT id FROM cliente where cedula= '.$cedula.'';
                     } 
                         $mostrarcliente = $pdo->prepare($leercliente);
                         $mostrarcliente->execute();
