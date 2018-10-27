@@ -63,14 +63,16 @@ if($_POST){
 
                             }else{
                                
-                                    echo "Error al insertar en la tabla compra.";
+                                   echo "Error al guardar";
                                     $Band2=false;
                                 }
                                 
     }
-    
+    else{
+        echo "No hay producto seccionado";
+    }
      $pdo->commit(); 
-        if($Band2){
+        if($Band2&&$Band){
          echo 'Datos insertados';
         }         
 
